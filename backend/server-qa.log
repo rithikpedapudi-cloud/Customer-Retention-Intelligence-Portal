@@ -1,0 +1,50 @@
+
+> crip-backend@1.0.0 start
+> node server.js
+
+[DB] MongoDB connected successfully.
+[SERVER] CRIP Enterprise Interface Live on http://localhost:5000
+[MAILER] Gmail connection verified. Ready to send emails.
+[GROW] Could not remove what-if CSV C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\uploads\whatif_1779698306327.csv: EPERM: operation not permitted, unlink 'C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\uploads\whatif_1779698306327.csv'
+[GROW] Could not remove what-if CSV C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\uploads\whatif_1779698403845.csv: EPERM: operation not permitted, unlink 'C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\uploads\whatif_1779698403845.csv'
+[GROW] Could not remove what-if CSV C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\uploads\whatif_1779698421933.csv: EPERM: operation not permitted, unlink 'C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\uploads\whatif_1779698421933.csv'
+[GROW] Gemini draft failed (unknown). Using local fallback draft.
+[GROW] Gemini draft failed (unknown). Using local fallback draft.
+[GROW] Gemini draft failed (unknown). Using local fallback draft.
+[GROW] Gemini draft failed (unknown). Using local fallback draft.
+[GROW] Gemini draft failed (unknown). Using local fallback draft.
+[GROW] Gemini draft failed (unknown). Using local fallback draft.
+[GROW] Gemini draft failed (429). Using local fallback draft.
+Error: Validation failed: crm_stage: `` is not a valid enum value for path `crm_stage`.
+    at ValidationError.inspect (C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\node_modules\mongoose\lib\error\validation.js:52:26)
+    at formatValue (node:internal/util/inspect:850:19)
+    at inspect (node:internal/util/inspect:387:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2366:40)
+    at formatWithOptions (node:internal/util/inspect:2228:10)
+    at console.value (node:internal/console/constructor:345:14)
+    at console.error (node:internal/console/constructor:412:61)
+    at C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\routes\data.js:576:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  errors: {
+    crm_stage: ValidatorError: `` is not a valid enum value for path `crm_stage`.
+        at validate (C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\node_modules\mongoose\lib\schemaType.js:1443:13)
+        at SchemaType.doValidate (C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\node_modules\mongoose\lib\schemaType.js:1427:7)
+        at C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\node_modules\mongoose\lib\helpers\updateValidators.js:150:22
+        at module.exports (C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\node_modules\mongoose\lib\helpers\updateValidators.js:201:7)
+        at C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\node_modules\mongoose\lib\query.js:4115:7
+        at new Promise (<anonymous>)
+        at model.Query.validate (C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\node_modules\mongoose\lib\query.js:4114:11)
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async model.Query._findOneAndUpdate (C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\node_modules\mongoose\lib\query.js:3529:5)
+        at async model.Query.exec (C:\Users\rithi\OneDrive\Desktop\VITH SEM\IOMP\CRIP@\backend\node_modules\mongoose\lib\query.js:4627:63) {
+      properties: [Object],
+      kind: 'enum',
+      path: 'crm_stage',
+      value: '',
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Validation failed'
+}
+[GROW] Gemini draft failed (unknown). Using local fallback draft.
