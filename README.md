@@ -79,21 +79,21 @@
 ## Features
 
 ### Core Modules
-- **Churn Prediction** — ML-powered risk scoring with explainable AI (XAI) reasons
-- **Dashboard Analytics** — Real-time charts, health score badges, risk labels (HIGH/MEDIUM/LOW)
-- **Customer Management** — Full CRUD with CSV bulk upload and metadata storage
+- **Churn Prediction** — ML-powered risk scoring with explainable AI (XAI) reasons.
+- **Dashboard Analytics** — Real-time charts, health score badges, risk labels (HIGH/MEDIUM/LOW).
+- **Customer Management** — Full CRUD with CSV bulk upload and metadata storage.
 
 ### AI & Automation
-- **Gemini AI Campaigns** — Auto-generated retention emails with one-click dispatch
-- **A/B Testing Framework** — Variant assignment, outcome tracking, retention rate comparison
-- **What-If Simulator** — Live predictive sandbox for scenario-based risk analysis
-- **Macro Strategy Generator** — C-level advisory powered by portfolio-wide analysis
+- **Gemini AI Campaigns** — Auto-generated retention emails with one-click dispatch.
+- **A/B Testing Framework** — Variant assignment, outcome tracking, retention rate comparison.
+- **What-If Simulator** — Live predictive sandbox for scenario-based risk analysis.
+- **Macro Strategy Generator** — C-level advisory powered by portfolio-wide analysis.
 
 ### Operations
-- **Helpdesk Ticketing** — Priority-based support tickets linked to customer records
-- **Billing Analytics** — Revenue charts, payment method analysis, renewal calendar
-- **Reports & Export** — CSV/PDF export, advanced filtering, paginated data tables
-- **CRON Jobs** — Daily ML recalibration + proactive risk alerts + weekly email digests
+- **Helpdesk Ticketing** — Priority-based support tickets linked to customer records.
+- **Billing Analytics** — Revenue charts, payment method analysis, renewal calendar.
+- **Reports & Export** — CSV/PDF export, advanced filtering, paginated data tables.
+- **CRON Jobs** — Daily ML recalibration + proactive risk alerts + weekly email digests.
 
 ### Security
 - JWT authentication with HTTP-only cookies
